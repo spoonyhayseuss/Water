@@ -50,14 +50,14 @@ public class h_water_a_logIn extends ActivityInstrumentationTestCase2 {
 
         //Enter the text: 'awitherspoon@fitbit.com'
         solo.clearEditText((android.widget.EditText) solo.getView("login_email"));
-        solo.enterText((android.widget.EditText) solo.getView("login_email"), "spoonyhayseuss@gmail.com");
+        solo.enterText((android.widget.EditText) solo.getView("login_email"), "wellness@android.com");
 
         //Click on Empty Text View
         solo.clickOnView(solo.getView("login_password"));
 
         //Enter the text: 'aaron123'
         solo.clearEditText((android.widget.EditText) solo.getView("login_password"));
-        solo.enterText((android.widget.EditText) solo.getView("login_password"), "spoon123");
+        solo.enterText((android.widget.EditText) solo.getView("login_password"), "wellness");
 
 
         //Click on Log in
